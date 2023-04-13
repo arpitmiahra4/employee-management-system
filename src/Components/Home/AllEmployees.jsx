@@ -1,9 +1,11 @@
-import { Box } from '@chakra-ui/react'
+import { Box, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 
 const AllEmployees = () => {
   return (
-    <Box textAlign={"center"}>AllEmployees</Box>
+    <Box textAlign={"center"} color={useColorModeValue('black', 'teal')}>
+    AllEmployees
+    </Box>
   )
 }
 

@@ -6,8 +6,8 @@ import SingleEmployeePage from '../Components/Home/SingleEmployeePage';
 const AllRoutes = () => {
   return (
     <Routes>
-        <Route path='/' element={<Completed />}/>
-        <Route path='' element={<SingleEmployeePage />}/>
+      <Route path='/' element={<Completed />} />
+      <Route path='/employee/:id' element={<SingleEmployeePage />} />
     </Routes>
   )
 }

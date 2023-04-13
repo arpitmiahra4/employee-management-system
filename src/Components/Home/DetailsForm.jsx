@@ -13,21 +13,21 @@ const DetailsForm = () => {
   const [isSubmit, setisSubmit] = useState(false);
 
   const handleFormData = (e) => {
-    const {name: key, value, }= e.target
-    setFormData({...formData, [key]:value});
+    const { name: key, value, } = e.target
+    setFormData({ ...formData, [key]: value });
   }
 
   const HandleAddData = () => {
     setisSubmit(true);
     AddData(formData)
-    .then(res =>{
-      console.log(res)
-      setisSubmit(false);
-      HandleEmotionData()
-    })
-    .catch(err =>{
-      setisSubmit(false)
-    })
+      .then(res => {
+        console.log(res)
+        setisSubmit(false);
+        HandleEmotionData()
+      })
+      .catch(err => {
+        setisSubmit(false)
+      })
     setFormData(initValue)
     window.location.reload();
   }
@@ -111,7 +111,7 @@ const DetailsForm = () => {
               <Box
                 color={useColorModeValue('gray', 'gray')}
                 name="maritalStatus"
-                
+
                 value={formData.maritalStatus} spacing='24px'>
                 <Radio name="maritalStatus" onChange={handleFormData} value='Married'>Married</Radio>
               </Box>
