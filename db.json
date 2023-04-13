@@ -1,15 +1,52 @@
 {
-    "Employee": [
-        {
-            "name": "Arpit Mishra",
-            "email": "arpitmiahra4@gmail.com",
-            "number": "8989571140",
-            "age": "23",
-            "gender": "Male",
-            "maritalStatus": "UnMarried",
-            "department": "Full_Stack",
-            "salary": "80K",
-            "image": "https://avatars.githubusercontent.com/u/106508210?v=4"
-        }
-    ]
+  "employee": [
+    {
+      "name": "arpit mishra",
+      "email": "arpitmiahra4@gmail.com",
+      "number": "8989571140",
+      "age": "23",
+      "gender": "Male",
+      "maritalStatus": "UnMarried",
+      "department": "Full_Stack",
+      "salary": "50K",
+      "image": "https://avatars.githubusercontent.com/u/106508210?v=4",
+      "id": 1
+    },
+    {
+      "name": "priya",
+      "email": "priyalovelin62@gmail.com",
+      "number": "8989571140",
+      "age": "24",
+      "gender": "Female",
+      "maritalStatus": "UnMarried",
+      "department": "Front_End",
+      "salary": "40K",
+      "image": "https://avatars.githubusercontent.com/u/107981105?v=4",
+      "id": 2
+    },
+    {
+      "name": "shivam",
+      "email": "arpitrct101@gmail.com",
+      "number": "5256446496421",
+      "age": "23",
+      "gender": "Male",
+      "maritalStatus": "Married",
+      "department": "UI_Developer",
+      "salary": "60K",
+      "image": "https://avatars.githubusercontent.com/u/112841168?v=4",
+      "id": 3
+    },
+    {
+      "name": "ramm",
+      "email": "arpitrct101@gmail.com",
+      "number": "4649974643",
+      "age": "22",
+      "gender": "Male",
+      "maritalStatus": "UnMarried",
+      "department": "UX_Designer",
+      "salary": "60K",
+      "image": "https://avatars.githubusercontent.com/u/112841168?v=4",
+      "id": 4
+    }
+  ]
 }

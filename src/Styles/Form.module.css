@@ -1,0 +1,27 @@
+.slide_right {
+  -webkit-animation: slide_right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+    infinite both;
+  animation: slide_right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s infinite
+    both;
+}
+
+@-webkit-keyframes slide_right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}
+@keyframes slide_right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+}

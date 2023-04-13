@@ -22,7 +22,7 @@ import {
       <>
         <Box px={4} py={2} bg={useColorModeValue('black', 'cornsilk')} boxShadow={shadow} borderRadius={20}>
           <Flex h={14} alignItems={'center'} justifyContent={'space-evenly'}>
-            <Box fontWeight={"bold"} fontSize={25} color={useColorModeValue('teal', 'black')}>Employee Management System</Box>
+            <Box fontWeight={"bold"} fontSize={25} color={useColorModeValue('#aedafb', 'black')}>Employee Management System</Box>
             <Flex alignItems={'center'}>
               <Stack direction={'row'} spacing={7}>
                 <Button onClick={toggleColorMode} bg={"transparent"} _hover={{bg:"transparent"}}> 
