@@ -19,7 +19,7 @@ const EmployeesCards = ({ data }) => {
     <>
       <Flex mt={"3%"} boxShadow={shadow} borderRadius={"20px"} h={"190px"} w={"100%"}>
         <Box w={"35%"} ml={"1%"} borderRadius={"20px"} boxShadow={shadow}>
-          <Image borderRadius={"20px"} h={"100%"} src={data.image} />
+          <Image borderRadius={"20px"} w={"100%"} h={"100%"} src={data.image} />
         </Box>
         <Box w={"60%"}>
           <Flex gap={2} mt={2}>
