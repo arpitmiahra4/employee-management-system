@@ -1,8 +1,9 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 
 const AllEmployees = () => {
   return (
-    <div>AllEmployees</div>
+    <Box border={"1px solid black"}>AllEmployees</Box>
   )
 }
 

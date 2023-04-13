@@ -17,15 +17,16 @@ import {
   
   export default function Nav() {
     const { colorMode, toggleColorMode } = useColorMode();
+    const shadow = "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;"
     return (
       <>
-        <Box px={4} bg={useColorModeValue('black', 'gray.900')} borderRadius={25}>
-          <Flex h={16} alignItems={'center'} justifyContent={'space-evenly'}>
-            <Box fontWeight={"bold"} fontSize={30} color={useColorModeValue('teal', 'red')}>Employee Management System</Box>
+        <Box px={4} bg={useColorModeValue('black', 'cornsilk')} boxShadow={shadow} borderRadius={20}>
+          <Flex h={14} alignItems={'center'} justifyContent={'space-evenly'}>
+            <Box fontWeight={"bold"} fontSize={25} color={useColorModeValue('teal', 'black')}>Employee Management System</Box>
             <Flex alignItems={'center'}>
               <Stack direction={'row'} spacing={7}>
                 <Button onClick={toggleColorMode} bg={"transparent"} _hover={{bg:"transparent"}}> 
-                  {colorMode === 'light' ? <BsFillLightbulbOffFill size={35} color='white'/> : <BsFillLightbulbFill size={35} color='orange'/>}
+                  {colorMode === 'light' ? <BsFillLightbulbOffFill size={30} color='white'/> : <BsFillLightbulbFill size={30} color='orange'/>}
                 </Button>
                 <Menu>
                   <MenuButton
@@ -35,7 +36,7 @@ import {
                     cursor={'pointer'}
                     minW={0}>
                     <Avatar
-                      size={'md'}
+                      size={'sm'}
                       src={'https://images-platform.99static.com/ky8wEq_DEdvfN0l2lmUSfuVYL0g=/0x0:2000x2000/500x500/top/smart/99designs-contests-attachments/107/107446/attachment_107446690'}
                     />
                   </MenuButton>
