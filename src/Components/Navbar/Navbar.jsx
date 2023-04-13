@@ -20,7 +20,7 @@ import {
     const shadow = "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;"
     return (
       <>
-        <Box px={4} bg={useColorModeValue('black', 'cornsilk')} boxShadow={shadow} borderRadius={20}>
+        <Box px={4} py={2} bg={useColorModeValue('black', 'cornsilk')} boxShadow={shadow} borderRadius={20}>
           <Flex h={14} alignItems={'center'} justifyContent={'space-evenly'}>
             <Box fontWeight={"bold"} fontSize={25} color={useColorModeValue('teal', 'black')}>Employee Management System</Box>
             <Flex alignItems={'center'}>

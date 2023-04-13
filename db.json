@@ -1,0 +1,15 @@
+{
+    "Employee": [
+        {
+            "name": "Arpit Mishra",
+            "email": "arpitmiahra4@gmail.com",
+            "number": "8989571140",
+            "age": "23",
+            "gender": "Male",
+            "maritalStatus": "UnMarried",
+            "department": "Full_Stack",
+            "salary": "80K",
+            "image": "https://avatars.githubusercontent.com/u/106508210?v=4"
+        }
+    ]
+}
