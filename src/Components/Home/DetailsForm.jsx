@@ -172,27 +172,27 @@ const DetailsForm = () => {
           </InputGroup>
         </FormControl>
 
-        <HStack ml={"32%"} mt={"4"}>
+        <Flex mt={"2.5"} alignItems={"center"} mb={"4%"}>
           {
             isSubmit ? (
-              <Button isLoading textAlign="start" colorScheme='cyan' size='lg'>
+              <button class={Styles.btn_submit} m={"auto"} isLoading textAlign="start" size='lg'>
                 Submit
-              </Button>
+              </button>
             ) : (
-              <Button onClick={HandleAddData} textAlign="start" colorScheme='teal' size='lg'>
+              <button class={Styles.btn_submit} m={"auto"} onClick={HandleAddData} textAlign="start" size='lg'>
                 Submit
-              </Button>
+              </button>
             )
           }
           <Spacer />
           {
             updateButton ? (
-              <Button onClick={updateToServer} textAlign="start" colorScheme='orange' size='lg'>
+              <button class={Styles.btn_submit} m={"auto"} onClick={updateToServer} textAlign="start" size='lg'>
                 Update Data
-              </Button>
+              </button>
             ) : <Text>.</Text>
           }
-        </HStack>
+        </Flex>
       </Box>
     </Box>
   )

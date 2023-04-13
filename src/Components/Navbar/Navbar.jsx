@@ -1,16 +1,8 @@
 import {
   Box,
   Flex,
-  Avatar,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  Stack,
   useColorMode,
-  Center,
   useColorModeValue,
 } from '@chakra-ui/react';
 import { BsFillLightbulbOffFill, BsFillLightbulbFill } from "react-icons/bs";
