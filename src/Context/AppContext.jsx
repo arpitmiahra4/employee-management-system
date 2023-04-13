@@ -26,7 +26,7 @@ const AppContextProvider = ({ children }) => {
   const [updateButton, setupdateButton] = useState(false)
   const [editedID, seteditedID] = useState(null)
   const [formData, setFormData] = useState(initValue)
-  const limit = 2;
+  const limit = 4;
   const [page, setPage] = useState(1)
 
   useEffect(() => {

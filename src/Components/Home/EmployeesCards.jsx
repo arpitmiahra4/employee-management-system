@@ -17,7 +17,7 @@ const EmployeesCards = ({ data }) => {
   }
   return (
     <>
-      <Flex mt={"30%"} boxShadow={shadow} borderRadius={"20px"} h={"190px"} w={"100%"}>
+      <Flex mt={"3%"} boxShadow={shadow} borderRadius={"20px"} h={"190px"} w={"100%"}>
         <Box w={"35%"} ml={"1%"} borderRadius={"20px"} boxShadow={shadow}>
           <Image borderRadius={"20px"} h={"100%"} src={data.image} />
         </Box>
