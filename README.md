@@ -44,7 +44,7 @@ Employee Management System by all CRUD operation on Json-Server. We can track ev
 
 <h2>📬 Contact</h2>
 
-If you want to contact Our Team, you can reach us through below handles.
+If you want to contact Me, you can reach through below handles.
 
 ## Arpit Mishra
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arpit-mishra-662199222/)
