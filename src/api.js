@@ -1,4 +1,4 @@
-const URL = "http://localhost:4000/employee"
+const URL = "https://mock-server-686g.onrender.com/employee"
 
 export const GetData = ({ FilterByGender, FilterBy, titleSortBy, page, setTotalProduct, limit }) => {
     if (FilterBy !== null) {

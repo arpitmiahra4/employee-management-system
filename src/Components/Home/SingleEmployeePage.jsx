@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import Styles from "../../Styles/Form.module.css"
 const FetChData = ({ user_id }) => {
-  return fetch(`http://localhost:4000/employee?id=${user_id}`).then((res) =>
+  return fetch(`https://mock-server-686g.onrender.com/employee?id=${user_id}`).then((res) =>
     res.json()
   );
 };
