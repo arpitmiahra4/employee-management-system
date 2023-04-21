@@ -11,30 +11,6 @@
       "salary": "60K",
       "image": "https://i.ibb.co/ypPvNdp/a-r-p-i-t-m-ishra-20230403-0001.jpg",
       "id": 1
-    },
-    {
-      "name": "priya",
-      "email": "priyalovelin62@gmail.com",
-      "number": "8989571140",
-      "age": "24",
-      "gender": "Female",
-      "maritalStatus": "UnMarried",
-      "department": "Front_End",
-      "salary": "40K",
-      "image": "https://i.ibb.co/Vw5FRn3/priya-r-lovelin-20230409-0040.jpg",
-      "id": 2
-    },
-    {
-      "name": "ramm",
-      "email": "arpitrct101@gmail.com",
-      "number": "4649974643",
-      "age": "22",
-      "gender": "Male",
-      "maritalStatus": "UnMarried",
-      "department": "UX_Designer",
-      "salary": "60K",
-      "image": "https://i.ibb.co/BPN0qxY/a-r-p-i-t-m-ishra-20220518-0001.jpg",
-      "id": 4
     }
   ]
 }
